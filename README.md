@@ -46,15 +46,9 @@ The project uses different deployment platforms for Staging and Production.
 
 ### Application and Deployment Architecture
 
-**Add the pipeline diagram here.**
 
-Save your diagram in `docs/images/` and update the image path below.
+![CI/CD Pipeline Architecture](docs/images/pipeline-architecture.png)
 
-CI/CD Pipeline Architecture
-
-!CI/CD Pipeline Architecture
-
-CI/CD Pipeline Architecture
 
 ## Infrastructure Architecture
 
