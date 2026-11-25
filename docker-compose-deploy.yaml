@@ -1,0 +1,8 @@
+services:
+  api:
+    build: !reset null
+    image: docker.io/developersatya/api-service:${IMAGE_VERSION:-latest}
+
+  web:
+    build: !reset null
+    image: docker.io/developersatya/web-service:${IMAGE_VERSION:-latest}
