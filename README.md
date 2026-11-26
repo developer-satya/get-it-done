@@ -44,11 +44,6 @@ The project uses different deployment platforms for Staging and Production.
 | Main purpose | Testing and validation | Production deployment |
 | Infrastructure | Single Linux server | One control-plane node and two worker nodes |
 
-### Application and Deployment Architecture
-
-
-![CI/CD Pipeline Architecture](docs/images/pipeline-architecture.png)
-
 
 ## Infrastructure Architecture
 
@@ -60,7 +55,8 @@ The project infrastructure includes a Jenkins server, a Linux server for Staging
 
 Save your diagram in `docs/images/DevOps Capstone Project.png` and update the image path below.
 
-Infrastructure Architecture
+![Infrastructure Architecture](docs/images/infrastructure-architecture.png)
+
 
 !Infrastructure Architecture
 
@@ -112,9 +108,9 @@ Infrastructure Architecture
 
 Jenkins is used to automate the application deployment process for the Staging and Production environments.
 
-**Insert or update your Jenkins pipeline diagram in:**
 
-`docs/images/pipeline-architecture.png`
+![CI/CD Pipeline Architecture](docs/images/pipeline-architecture.png)
+
 
 The exact pipeline stages can be documented here once they are confirmed. For example, add the stages you actually use, such as source checkout, build, image creation, and deployment. Do not list a stage unless it is part of your working pipeline.
 
@@ -129,11 +125,14 @@ The project includes the following tools:
 | Kubernetes Dashboard | Web-based view of Kubernetes resources |
 | Headlamp | Web-based Kubernetes cluster management |
 
-Add screenshots of your dashboards here if you want to show the monitoring setup:
 
-- `docs/images/grafana-dashboard.png`
-- `docs/images/prometheus.png`
-- `docs/images/kubernetes-dashboard.png`
+![Grafana Dashboard](docs/images/grafana-dashboard.png)
+
+![Prometheus](docs/images/prometheus.png)
+
+![Kubernetes Dashboard](docs/images/kubernetes-dashboard.png)
+
+
 
 ## Project Status
 
