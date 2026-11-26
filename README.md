@@ -51,16 +51,11 @@ The project infrastructure includes a Jenkins server, a Linux server for Staging
 
 ### Infrastructure Diagram
 
-**Add the infrastructure diagram here.**
 
-Save your diagram in `docs/images/DevOps Capstone Project.png` and update the image path below.
 
 ![Infrastructure Architecture](docs/images/infrastructure-architecture.png)
 
 
-!Infrastructure Architecture
-
-Infrastructure Architecture
 
 ### Infrastructure Details
 
@@ -112,7 +107,7 @@ Jenkins is used to automate the application deployment process for the Staging a
 ![CI/CD Pipeline Architecture](docs/images/pipeline-architecture.png)
 
 
-The exact pipeline stages can be documented here once they are confirmed. For example, add the stages you actually use, such as source checkout, build, image creation, and deployment. Do not list a stage unless it is part of your working pipeline.
+
 
 ## Monitoring and Cluster Management
 
@@ -159,20 +154,3 @@ The project includes the following tools:
 
 ---
 
-## Repository Documentation
-
-Suggested folder structure for project diagrams and screenshots:
-
-```
-get-it-done/
-├── README.md
-└── docs/
-    └── images/
-        ├── pipeline-architecture.png
-        ├── infrastructure-architecture.png
-        ├── grafana-dashboard.png
-        ├── prometheus.png
-        └── kubernetes-dashboard.png
-```
-
-Replace the image placeholders with your own diagrams and screenshots when they are ready.
