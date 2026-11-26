@@ -126,11 +126,15 @@ The project includes the following tools:
 | Headlamp | Web-based Kubernetes cluster management |
 
 
-![Grafana Dashboard](docs/images/grafana-dashboard.png)
+
 
 ![Prometheus](docs/images/prometheus.png)
 
+![Grafana Dashboard](docs/images/grafana-dashboard.png)
+
 ![Kubernetes Dashboard](docs/images/kubernetes-dashboard.png)
+
+![Grafana Dashboard](docs/images/kubernetes-headlamp.png)
 
 
 
